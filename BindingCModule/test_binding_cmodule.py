@@ -10,23 +10,24 @@ from circle import Circle
         (C:\Python27)\Lib\site-packages\
 '''
 
-beginMsg = "c binding moduel logging test begin"
-endMsg = "c binding moduel logging test end"
+if __name__ == '__main__' :
+    beginMsg = "c binding moduel logging test begin"
+    endMsg = "c binding moduel logging test end"
 
-myLib.wlog(beginMsg)
+    myLib.wlog(beginMsg)
 
-print(spam.strlen(beginMsg))
-print(spam.strlen(endMsg))
+    print(spam.strlen(beginMsg))
+    print(spam.strlen(endMsg))
 
-num1 = 14
-num2 = 3
-print(spam.division(num1, num2))
+    num1 = 14
+    num2 = 3
+    print(spam.division(num1, num2))
 
-color = "white"
-radius = 10
-shape = Circle(color, radius)
-print(type(shape))
-print("color ", shape.color())
-print("area ", shape.area())
+    color = "white"
+    radius = 10
+    shape = Circle(color, radius)
+    print(type(shape))
+    print("color ", shape.color())
+    print("area ", shape.area())
 
-myLib.wlog(endMsg)
+    myLib.wlog(endMsg)

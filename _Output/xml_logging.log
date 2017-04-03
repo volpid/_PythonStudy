@@ -1,0 +1,39 @@
+PrintXmlProjectIncludeFiles
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClass.cpp
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClassWithVirtual.cpp
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\FilterTest.cpp
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\Main.cpp
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\NoMeaning.cpp
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClass.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClassWithInline.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClassWithVirtual.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\DummyClassWithVirtualInline.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\FilterTest.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\NoMeaning.h
+	 -> origin files : D:\+GitHub\_PythonStudy\_Output\resource.h
+
+#ModifyVcprojXmlFile ./_Output/manipulate_source.vcxproj 
+
+#SetupVcxprojAttrib
+##VcxprojAttrib
+	RootNamespace : EmptyProjectvs2015
+	Configurations : [('Debug', 'Debug|Win32', 'exe'), ('Release', 'Release|Win32', 'exe'), ('Debug', 'Debug|x64', 'exe'), ('Release', 'Release|x64', 'exe')]
+	Filename : manipulate_source
+	AbsPath : ./_Output
+
+
+#RemoveItemDefinitionGroup
+#Remove Event : <Element '{http://schemas.microsoft.com/developer/msbuild/2003}ItemDefinitionGroup' at 0x017A5330>
+#Remove Event : <Element '{http://schemas.microsoft.com/developer/msbuild/2003}ItemDefinitionGroup' at 0x017AA360>
+
+#ModifyPropertyGroup
+#Modify : '$(Configuration)|$(Platform)'=='Debug|Win32'
+#Modify : '$(Configuration)|$(Platform)'=='Release|Win32'
+#Modify : '$(Configuration)|$(Platform)'=='Debug|x64'
+#Modify : '$(Configuration)|$(Platform)'=='Release|x64'
+
+#InjectPropertyProp
+## InjectProperty.props -> ./_Output/InjectProperty.props 
+## InjectProperty.props -> ./_Output/InjectProperty.props 
+## InjectProperty.props -> ./_Output/InjectProperty.props 
+## InjectProperty.props -> ./_Output/InjectProperty.props 

@@ -29,7 +29,7 @@ def GetCommonString(s1, s2) :
 	return LCBs
 
 #############################################################################
-def TestMain():
+def DoMainTest():
 	S1='''GET /http.html Http1.1
 
 Host: www.http.header.free.fr
@@ -67,4 +67,4 @@ Accept-Language: Fr
 	print(''.join(LCBs))
 
 if __name__ == "__main__" :
-	TestMain()
+	DoMainTest()

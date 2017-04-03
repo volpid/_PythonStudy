@@ -6,7 +6,7 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Basic\longest_byte_in_two_bite.py</StartupFile>
+    <StartupFile>Xml\xml_manipulate_vcxproj.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,12 +38,17 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="scratchpad.py" />
+    <Compile Include="Xml\xml_manipulate_vcxproj.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Xml\xml_namespace.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic\" />
     <Folder Include="BindingCModule\" />
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
+    <Folder Include="Xml\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />

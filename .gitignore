@@ -1,6 +1,10 @@
 
 #folder
+.vs/
 BindingCModule/build/
+/**/__pycache__/
 
 #files
 *.user
+
+

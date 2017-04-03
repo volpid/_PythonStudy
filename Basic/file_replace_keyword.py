@@ -7,7 +7,7 @@ import stat
 
 from tempfile import mkstemp
 
-def replace(file_path, patterns) :
+def Replace(file_path, patterns) :
     #create temp file.
     (fh, abs_path) = mkstemp()
     try :
@@ -27,7 +27,7 @@ def replace(file_path, patterns) :
 
 if __name__ == '__main__' :
     
-    originfile = r'./_Output/vs2015_source.vcxproj'
+    originfile = r'./_Output/_vs2015_source.vcxproj'
     replacefile = r'./_Output/replace_source.vcxproj'
 
     if os.path.exists(replacefile) :
@@ -37,4 +37,4 @@ if __name__ == '__main__' :
     shutil.copyfile(originfile, replacefile)
 
     replacePair = [('</', '['), ('/>', ']'), ('<', '['), ('>', ']')]
-    replace(replacefile, replacePair)
+    Replace(replacefile, replacePair)

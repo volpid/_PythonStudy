@@ -7,7 +7,7 @@ import os.path
 ndir = 0
 nfile = 0
 
-def traverse(dir, depth) :
+def Traverse(dir, depth) :
 	global ndir
 	global nfile
 
@@ -20,7 +20,7 @@ def traverse(dir, depth) :
 		if os.path.isdir(obj) :
 			ndir += 1
 			print(prefix + os.path.basename(obj))
-			traverse(obj, depth + 1)
+			Traverse(obj, depth + 1)
 		elif os.path.isfile(obj) :
 			nfile += 1
 			print(prefix + os.path.basename(obj))
@@ -31,6 +31,6 @@ if __name__ == '__main__' :
 	path = "." 
 	print('path : ', os.path.abspath(path))
 
-	traverse(path, 0)
+	Traverse(path, 0)
 	print("\n", ndir, "directories,", nfile, "files")
 			
