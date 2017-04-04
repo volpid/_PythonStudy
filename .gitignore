@@ -1,7 +1,9 @@
 
 #folder
 .vs/
+_Resource/
 BindingCModule/build/
+
 /**/__pycache__/
 
 #files

@@ -6,7 +6,7 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Xml\xml_manipulate_vcxproj.py</StartupFile>
+    <StartupFile>PyGameTutorial\9_squirrel_eat_squirrel.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,15 @@
     <Compile Include="Basic\os_work_path_recursive.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="PyGameTutorial\1_basic.py" />
+    <Compile Include="PyGameTutorial\2_basic_animation.py" />
+    <Compile Include="PyGameTutorial\2_basic_draw_primitive.py" />
+    <Compile Include="PyGameTutorial\4_memory_puzzle.py" />
+    <Compile Include="PyGameTutorial\5_slide_puzzle.py" />
+    <Compile Include="PyGameTutorial\6_simulate.py" />
+    <Compile Include="PyGameTutorial\7_wormy.py" />
+    <Compile Include="PyGameTutorial\8_tetromino.py" />
+    <Compile Include="PyGameTutorial\9_squirrel_eat_squirrel.py" />
     <Compile Include="python_templete_file.py">
       <SubType>Code</SubType>
     </Compile>
@@ -48,6 +57,7 @@
     <Folder Include="BindingCModule\" />
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
+    <Folder Include="PyGameTutorial\" />
     <Folder Include="Xml\" />
   </ItemGroup>
   <ItemGroup>
