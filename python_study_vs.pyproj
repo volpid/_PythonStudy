@@ -6,7 +6,8 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>EncrytionTutorial\affineCipher.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,8 +35,8 @@
     <Compile Include="Basic\os_work_path_recursive.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="EncrytionTutorial\affineCipher.py" />
-    <Compile Include="EncrytionTutorial\vigenereCipher.py" />
+    <Compile Include="CryptographyTutorial\affineCipher.py" />
+    <Compile Include="CryptographyTutorial\vigenereCipher.py" />
     <Compile Include="PyGameTutorial\1_basic.py" />
     <Compile Include="PyGameTutorial\2_basic_animation.py" />
     <Compile Include="PyGameTutorial\2_basic_draw_primitive.py" />
@@ -59,7 +60,7 @@
     <Folder Include="BindingCModule\" />
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
-    <Folder Include="EncrytionTutorial\" />
+    <Folder Include="CryptographyTutorial\" />
     <Folder Include="PyGameTutorial\" />
     <Folder Include="Xml\" />
   </ItemGroup>
