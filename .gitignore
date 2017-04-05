@@ -1,6 +1,8 @@
 
 #folder
 .vs/
+_Bin/
+_Intermediate/
 _Resource/
 BindingCModule/build/
 
@@ -8,5 +10,6 @@ BindingCModule/build/
 
 #files
 *.user
+*.VC.db
 
 
