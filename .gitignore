@@ -11,5 +11,4 @@ BindingCModule/build/
 #files
 *.user
 *.VC.db
-
-
+*.VC.opendb
