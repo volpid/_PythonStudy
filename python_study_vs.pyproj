@@ -13,8 +13,10 @@
     <OutputPath>.</OutputPath>
     <Name>python_study_vs</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
-    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
-    <InterpreterVersion>3.5</InterpreterVersion>
+    <InterpreterId>
+    </InterpreterId>
+    <InterpreterVersion>
+    </InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,46 +28,78 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Basic\basic_common_usage.py" />
+    <Compile Include="Basic\copyreg_pickle_object.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Basic\file_replace_keyword.py" />
     <Compile Include="Basic\file_system_tree.py" />
     <Compile Include="Basic\longest_byte_in_two_bite.py" />
-    <Compile Include="Basic\regular_expression.py" />
+    <Compile Include="Cryptography\affineCipher.py" />
+    <Compile Include="Cryptography\vigenereCipher.py" />
+    <Compile Include="PyGame\1_basic.py" />
+    <Compile Include="PyGame\2_basic_animation.py" />
+    <Compile Include="PyGame\2_basic_draw_primitive.py" />
+    <Compile Include="PyGame\4_memory_puzzle.py" />
+    <Compile Include="PyGame\5_slide_puzzle.py" />
+    <Compile Include="PyGame\6_simulate.py" />
+    <Compile Include="PyGame\7_wormy.py" />
+    <Compile Include="PyGame\8_tetromino.py" />
+    <Compile Include="PyGame\9_squirrel_eat_squirrel.py" />
+    <Compile Include="Syntax\collections_dictionary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\collections_etc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\collections_namedtuple.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\datetime_utc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\getsizeof_object.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\pickle_object.py" />
+    <Compile Include="Syntax\regular_expression.py" />
     <Compile Include="BindingCModule\test_binding_cmodule.py" />
     <Compile Include="Basic\os_work_path_recursive.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BindingCModule\test_embedding_python.py" />
-    <Compile Include="CryptographyTutorial\affineCipher.py" />
-    <Compile Include="CryptographyTutorial\vigenereCipher.py" />
-    <Compile Include="PyGameTutorial\1_basic.py" />
-    <Compile Include="PyGameTutorial\2_basic_animation.py" />
-    <Compile Include="PyGameTutorial\2_basic_draw_primitive.py" />
-    <Compile Include="PyGameTutorial\4_memory_puzzle.py" />
-    <Compile Include="PyGameTutorial\5_slide_puzzle.py" />
-    <Compile Include="PyGameTutorial\6_simulate.py" />
-    <Compile Include="PyGameTutorial\7_wormy.py" />
-    <Compile Include="PyGameTutorial\8_tetromino.py" />
-    <Compile Include="PyGameTutorial\9_squirrel_eat_squirrel.py" />
     <Compile Include="python_templete_file.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="scratchpad.py" />
+    <Compile Include="Syntax\class__slots__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\time_to_localtime.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\tmalloc_trace.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\unit_test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Xml\xml_manipulate_vcxproj.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Xml\xml_namespace.py" />
+    <Compile Include="Syntax\yield_vs_yield_from.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Basic\" />
     <Folder Include="BindingCModule\" />
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
-    <Folder Include="CryptographyTutorial\" />
-    <Folder Include="PyGameTutorial\" />
+    <Folder Include="Cryptography\" />
+    <Folder Include="PyGame\" />
+    <Folder Include="Syntax\" />
     <Folder Include="Xml\" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\3.5" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BindingCModule\CModules2\circle_prototype.c" />
