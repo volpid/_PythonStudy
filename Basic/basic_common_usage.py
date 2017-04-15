@@ -9,7 +9,7 @@ def GetRelativePath(basePath, destPath) :
 	# common_prefix = os.path.commonprefix([basePath, destPath])
 	# relative_path = os.path.relpath(destPath, common_prefix)
 	relative_path = os.path.relpath(basePath, destPath)
-	print( relative_path)
+	print(relative_path)
 	return relative_path
 		
 def GetBaseFinename(absfile) :

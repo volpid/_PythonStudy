@@ -6,7 +6,7 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>scratchpad.py</StartupFile>
+    <StartupFile>Basic\download_unzip_file.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,9 +31,15 @@
     <Compile Include="Basic\copyreg_pickle_object.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Basic\download_unzip_file.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Basic\file_replace_keyword.py" />
     <Compile Include="Basic\file_system_tree.py" />
     <Compile Include="Basic\longest_byte_in_two_bite.py" />
+    <Compile Include="Basic\thread_pipeline.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Cryptography\affineCipher.py" />
     <Compile Include="Cryptography\vigenereCipher.py" />
     <Compile Include="PyGame\1_basic.py" />
