@@ -6,7 +6,7 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Basic\download_unzip_file.py</StartupFile>
+    <StartupFile>Syntax\get_vs_getattribute.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -64,6 +64,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Syntax\getsizeof_object.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Syntax\get_vs_getattribute.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Syntax\pickle_object.py" />
