@@ -6,7 +6,7 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Syntax\get_vs_getattribute.py</StartupFile>
+    <StartupFile>Basic\multiprocssing_pool.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,9 @@
     <Compile Include="Basic\file_replace_keyword.py" />
     <Compile Include="Basic\file_system_tree.py" />
     <Compile Include="Basic\longest_byte_in_two_bite.py" />
+    <Compile Include="Basic\multiprocssing_pool.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Basic\thread_pipeline.py">
       <SubType>Code</SubType>
     </Compile>
