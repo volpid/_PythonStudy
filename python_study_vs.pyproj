@@ -6,17 +6,15 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Basic\multiprocssing_pool.py</StartupFile>
+    <StartupFile>WebCrawling\simple_web_crawling.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>python_study_vs</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
-    <InterpreterId>
-    </InterpreterId>
-    <InterpreterVersion>
-    </InterpreterVersion>
+    <InterpreterId>{f726d574-7ae4-45a4-8b4c-2219f5f41fef}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -95,6 +93,9 @@
     <Compile Include="Syntax\unit_test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="WebCrawling\simple_web_crawling.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Xml\xml_manipulate_vcxproj.py">
       <SubType>Code</SubType>
     </Compile>
@@ -109,6 +110,7 @@
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
     <Folder Include="Cryptography\" />
+    <Folder Include="WebCrawling\" />
     <Folder Include="PyGame\" />
     <Folder Include="Syntax\" />
     <Folder Include="Xml\" />
@@ -120,6 +122,9 @@
     <Content Include="BindingCModule\CModules3\circle_prototype.c" />
     <Content Include="BindingCModule\CModules3\myLib.c" />
     <Content Include="BindingCModule\CModules3\spam_strlen.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{f726d574-7ae4-45a4-8b4c-2219f5f41fef}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
