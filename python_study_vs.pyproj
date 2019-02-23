@@ -6,17 +6,15 @@
     <ProjectGuid>6c6cc820-5a73-48cc-8b8c-375a651e133c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Basic\download_unzip_file.py</StartupFile>
+    <StartupFile>WebCrawling\simple_pytube_playlist.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>python_study_vs</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
-    <InterpreterId>
-    </InterpreterId>
-    <InterpreterVersion>
-    </InterpreterVersion>
+    <InterpreterId>{f726d574-7ae4-45a4-8b4c-2219f5f41fef}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -37,6 +35,9 @@
     <Compile Include="Basic\file_replace_keyword.py" />
     <Compile Include="Basic\file_system_tree.py" />
     <Compile Include="Basic\longest_byte_in_two_bite.py" />
+    <Compile Include="Basic\multiprocssing_pool.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Basic\thread_pipeline.py">
       <SubType>Code</SubType>
     </Compile>
@@ -66,6 +67,9 @@
     <Compile Include="Syntax\getsizeof_object.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Syntax\get_vs_getattribute.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Syntax\pickle_object.py" />
     <Compile Include="Syntax\regular_expression.py" />
     <Compile Include="BindingCModule\test_binding_cmodule.py" />
@@ -89,6 +93,18 @@
     <Compile Include="Syntax\unit_test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="WebCrawling\simple_pytube_example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebCrawling\simple_pytube_playlist.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebCrawling\simple_web_crawling.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WebCrawling\web_crawling_youtube_playlist.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Xml\xml_manipulate_vcxproj.py">
       <SubType>Code</SubType>
     </Compile>
@@ -103,6 +119,7 @@
     <Folder Include="BindingCModule\CModules2\" />
     <Folder Include="BindingCModule\CModules3\" />
     <Folder Include="Cryptography\" />
+    <Folder Include="WebCrawling\" />
     <Folder Include="PyGame\" />
     <Folder Include="Syntax\" />
     <Folder Include="Xml\" />
@@ -114,6 +131,9 @@
     <Content Include="BindingCModule\CModules3\circle_prototype.c" />
     <Content Include="BindingCModule\CModules3\myLib.c" />
     <Content Include="BindingCModule\CModules3\spam_strlen.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{f726d574-7ae4-45a4-8b4c-2219f5f41fef}\3.5" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
